@@ -1,1 +1,49 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  height: 100vh;
+  position: relative;
+}
+
+.card {
+  border-radius: 15px;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.diamond,
+.heart {
+  color: red;
+}
+
+.top-left-suit {
+  position: absolute;
+  top: 2em;
+  left: 35px;
+}
+
+.bottom-right-suit {
+  position: absolute;
+  transform: rotate(180deg);
+  bottom: 2em;
+  right: 35px;
+}
+.diamond,
+.heart,
+.clovers,
+.spades {
+  scale: 3;
+}
+
+.center-number {
+  scale: 4;
+}
+
+.btn btn-secondary {
+}
